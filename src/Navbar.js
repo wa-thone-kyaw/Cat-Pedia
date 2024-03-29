@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
+          <img src="/pawprint.png" alt="Logo" width="50" height="50" />{" "}
           Cat-Pedia
         </Link>
+
         <button
           className="navbar-toggler"
           type="button"

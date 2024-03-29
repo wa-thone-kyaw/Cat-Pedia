@@ -100,6 +100,7 @@ const CatList = () => {
       console.error("Error while deleting item", error);
     }
   };
+
   return (
     <div>
       <h1>Cat List</h1>
@@ -154,6 +155,7 @@ const CatList = () => {
                       cat.cat_gender
                     )}
                   </td>
+
                   <td style={tableCellStyle}>
                     {editCat === cat._id ? (
                       <button
